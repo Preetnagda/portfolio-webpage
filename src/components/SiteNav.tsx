@@ -4,8 +4,8 @@ import { useActiveSection } from "../hooks/useActiveSection";
 const NAV_LINKS = [
   { href: "#about", label: "./about" },
   { href: "#skills", label: "./skills" },
-  { href: "#projects", label: "./projects" },
   { href: "#experience", label: "./experience" },
+  { href: "#projects", label: "./projects" },
   { href: "#contact", label: "./contact" },
 ];
 
