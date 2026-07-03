@@ -1,0 +1,11 @@
+# Copy to terraform.tfvars (gitignored) and fill in your own values.
+
+bucket_name = "your-globally-unique-bucket-name"
+
+# Optional: custom domains. Leave out to serve from *.cloudfront.net only.
+# The ACM certificate must be issued in us-east-1 and cover every alias.
+# aliases             = ["yourdomain.com", "www.yourdomain.com"]
+# acm_certificate_arn = "arn:aws:acm:us-east-1:123456789012:certificate/xxxx"
+
+# Optional: Route 53 zone for the aliases. Leave out to manage DNS yourself.
+# hosted_zone_name = "yourdomain.com"
