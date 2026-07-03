@@ -1,0 +1,91 @@
+{
+  "identity": {
+    "name": "Jane Marie Doe",
+    "displayName": "Jane Doe",
+    "handle": "jane-doe",
+    "homePath": "~/your-city",
+    "role": "Software Engineer · Full Stack",
+    "certification": "Example Certification - Associate",
+    "certificationUrl": "https://www.credly.com/badges/your-badge-id",
+    "focus": "Backend systems · Cloud infra · APIs",
+    "location": "City, Country",
+    "education": "Degree · University Name (GPA x.x/4)",
+    "status": "Software Engineer",
+    "openToWork": true,
+    "heroTags": ["TypeScript · Python", "Example Certification"]
+  },
+  "about": "Two-to-four sentence summary shown in the whoami section. Describe your experience, strengths and what kind of work you enjoy. Keep it in first person.",
+  "skills": [
+    { "label": "languages", "items": ["TypeScript", "Python"] },
+    { "label": "frameworks", "items": ["Node.js", "React.js"] },
+    {
+      "label": "databases & ci/cd",
+      "items": ["PostgreSQL", "GitHub Actions"]
+    },
+    {
+      "label": "infrastructure",
+      "wide": true,
+      "items": ["Docker", "Linux"],
+      "accent": "AWS",
+      "subItems": ["EC2", "Lambda", "S3"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project Name",
+      "description": "One or two sentences describing what the project does, the problem it solves and anything technically notable about it.",
+      "tags": ["React", "TypeScript"],
+      "links": [
+        { "label": "code", "href": "https://github.com/your-username/your-repo" },
+        { "label": "live", "href": "https://example.com" }
+      ]
+    },
+    {
+      "name": "Closed-Source Project",
+      "description": "Projects without public links are fine too — leave the links array empty.",
+      "tags": ["Python", "Docker"],
+      "links": []
+    }
+  ],
+  "experience": [
+    {
+      "hash": "7f3a9c2",
+      "dates": "Jan 2024 – Present",
+      "title": "Job Title",
+      "company": "Company Name, City",
+      "current": true,
+      "bullets": [
+        "Achievement or responsibility written as a past-tense bullet — what you built, the tech used and the measurable impact.",
+        "Another bullet. Aim for two to four per role."
+      ]
+    },
+    {
+      "hash": "b21e0d8",
+      "dates": "Jun 2021 – Dec 2023",
+      "title": "Previous Job Title",
+      "company": "Previous Company, City",
+      "bullets": [
+        "The hash is decorative (any short hex string); set \"current\": true only on the newest role — it highlights the timeline dot and adds the (HEAD → main) label."
+      ]
+    }
+  ],
+  "contactCta": {
+    "heading": "Looking for a full-stack engineer?",
+    "blurb": "Short call-to-action paragraph shown next to the contact links."
+  },
+  "contact": [
+    { "label": "email", "value": "you@example.com", "href": "mailto:you@example.com" },
+    { "label": "phone", "value": "+1 234 567 890", "href": "tel:+1234567890" },
+    { "label": "location", "value": "City, Country" },
+    {
+      "label": "linkedin",
+      "value": "linkedin.com/in/your-handle",
+      "href": "https://www.linkedin.com/in/your-handle/"
+    },
+    {
+      "label": "github",
+      "value": "github.com/your-username",
+      "href": "https://github.com/your-username"
+    }
+  ]
+}
