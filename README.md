@@ -1,5 +1,7 @@
 # Preet Nagda - Terminal Portfolio
 
+**Live at [www.preetnagda.com](https://www.preetnagda.com)**
+
 A terminal-flavoured one-page portfolio built with React, TypeScript and Vite. Sticky `./section` nav, `❯ command` section headers, git-log-style experience timeline, One Dark palette.
 
 ## Getting started
