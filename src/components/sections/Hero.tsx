@@ -13,7 +13,6 @@ export default function Hero() {
       </div>
       <h1 className="hero-name">
         {identity.displayName}
-        <span className="hero-cursor" />
       </h1>
       <div className="hero-tags">
         <span className="pill pill-open">
