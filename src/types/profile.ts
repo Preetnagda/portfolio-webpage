@@ -7,7 +7,6 @@ export interface Identity {
   certification: string;
   certificationUrl?: string;
   focus: string;
-  location: string;
   education?: string;
   status: string;
   openToWork: boolean;

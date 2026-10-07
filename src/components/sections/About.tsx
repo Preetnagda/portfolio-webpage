@@ -14,8 +14,6 @@ export default function About() {
             <div className="facts-grid">
               <span className="k">role</span>
               <span className="v">{identity.role}</span>
-              <span className="k">location</span>
-              <span className="v">{identity.location}</span>
               <span className="k">cert</span>
               <span className="v">
                 {identity.certificationUrl ? (

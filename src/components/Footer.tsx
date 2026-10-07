@@ -10,7 +10,7 @@ export default function Footer() {
           <span className="arrow">❯</span> exit 0
         </span>
         <span>
-          © {year} {identity.displayName} · {identity.location.split(",")[0]}
+          © {year} {identity.displayName}
         </span>
       </div>
     </footer>

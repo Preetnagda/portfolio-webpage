@@ -8,7 +8,6 @@
     "certification": "Example Certification - Associate",
     "certificationUrl": "https://www.credly.com/badges/your-badge-id",
     "focus": "Backend systems · Cloud infra · APIs",
-    "location": "City, Country",
     "education": "Degree · University Name (GPA x.x/4)",
     "status": "Software Engineer",
     "openToWork": true,
@@ -76,7 +75,6 @@
   "contact": [
     { "label": "email", "value": "you@example.com", "href": "mailto:you@example.com" },
     { "label": "phone", "value": "+1 234 567 890", "href": "tel:+1234567890" },
-    { "label": "location", "value": "City, Country" },
     {
       "label": "linkedin",
       "value": "linkedin.com/in/your-handle",
